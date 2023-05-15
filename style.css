@@ -703,7 +703,82 @@ footer a:hover {
 
 /* <!------------------ ABOUT.HTML --------------------------> */
 
+#page-header.about-header {
+	background-image: url("./img/about/banner.png");
+}
+
+#about-head {
+	display: flex;
+	align-items: center;
+}
+
+#about-head img {
+	width: 50%;
+	height: auto;
+	padding-right: 40px;
+}
+
+#about-app {
+	text-align: center;
+}
+
+#about-app .video {
+	width: 70%;
+	height: auto;
+	margin: 30px auto 0 auto;
+}
+
+#about-app .video video {
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+
 /* <!------------------ CONTACT.HTML --------------------------> */
+
+#contact-details{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+#contact-details .details{
+	width: 40%;
+}
+
+#contact-details .details span{
+	font-size: 12px;
+}
+
+#contact-details .details h2{
+	font-size: 26px;
+	line-height: 35px;
+	padding: 20px 0;
+}
+
+#contact-details .details h3{
+	font-size: 16px;
+	padding-bottom: 15px;
+}
+
+#contact-details .details li{
+	list-style: none;
+	display: flex;
+	padding: 10px 0;
+}
+
+#contact-details .details li i 
+{
+	font-size: 14px;
+	padding-right: 22px;
+}
+
+#contact-details .details li p{
+    margin: 0;
+	font-size: 14px;
+}
+
 
 /* <!------------------ MEDIA QUERIES --------------------------> */
 
@@ -921,5 +996,26 @@ footer a:hover {
 		align-items: center;
 		width: 100%;
 		padding-bottom: 30px;
+	}
+
+	/* ABOUT PAGE */
+
+	#about-head {
+		flex-direction: column;
+	}
+
+	#about-head img {
+		width: 100%;
+		padding-right: 0px;
+		margin-bottom: 20px;
+	}
+
+	#about-app .video {
+		width: 100%;
+	}
+
+	#about-head h2 {
+		display: flex;
+		justify-content: center;
 	}
 }
