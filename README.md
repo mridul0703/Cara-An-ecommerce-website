@@ -1,6 +1,5 @@
 ## Cara - An Ecommerce Website
 
-```markdown
 ## Overview
 
 Cara is a modern online marketplace built entirely using frontend technologies. It offers a seamless shopping experience with multiple pages and features for both buyers and sellers.
