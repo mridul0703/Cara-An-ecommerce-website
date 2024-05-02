@@ -8,12 +8,11 @@ Cara is a modern online marketplace built entirely using frontend technologies. 
 ## Table of Contents
 
 1. [Features](#features)
-2. [Screenshots](#screenshots)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Contributing](#contributing)
-6. [License](#license)
-7. [Contact](#contact)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Contributing](#contributing)
+5. [License](#license)
+6. [Contact](#contact)
 
 ## Features
 
@@ -23,11 +22,6 @@ Cara is a modern online marketplace built entirely using frontend technologies. 
 - Product search and filtering capabilities.
 - Integration with payment gateways for secure transactions.
 - Admin dashboard for managing products, orders, and users.
-
-## Screenshots
-
- ![image](https://github.com/mridul0703/Ecommerce-website/assets/98074317/1b18614d-9889-4909-a295-ddaf1dfbd2b2)
-
 
 ## Installation
 
